@@ -1,5 +1,5 @@
 
-import _root_.io.gatling.sbt.GatlingPlugin.autoImport.{assembly => _, _}
+import _root_.sbtassembly.AssemblyPlugin.autoImport.assembly
 
 val autoImportIssue = project
     .in(file("."))
